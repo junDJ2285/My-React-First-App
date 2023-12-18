@@ -1,0 +1,278 @@
+.home-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 84%;
+    margin: auto;
+    
+}
+.home-left{
+    display: flex;
+    align-items: center;
+    color: #002d5b;
+    width: 510px;
+}
+.left-icons{
+    height: 75%;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    padding: 1px 12px;
+    cursor: pointer;
+
+}
+.left-content{
+    display: flex;
+    flex-direction: column;
+    gap: 43px;
+}
+
+/* ********** About Section *********** */
+.sec2-container{
+
+    background-color: #ffffff;
+    padding-bottom: 60PX;
+}
+.home-about{
+    text-align: center;
+}
+.about-heading{
+ padding: 95px 10px;
+ /* line-height: 3rem; */
+}
+.about-container{
+    font-family: sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: left;
+}
+.about-items{
+    margin: 15px 0px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+#about-img{
+    width: 100%;
+    box-shadow: 15px -15px 0px 1px #ec5b53;
+    border-radius: 12px;
+}
+.about-items-heading{
+    font-family: emoji;
+    font-size: 1.67rem;
+}
+
+/* ********* work experience sec ******* */
+.work-exp-container{
+    background-color:#fdf4f3 ;
+    padding: 50px 0px;
+    /* color : #002d5b; */
+    font-family: sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.home-work{
+    width: 84%;
+    margin: auto;
+    text-align: center;
+}
+.work-heading{
+    /* padding-bottom: 100px; */
+}
+.work-exp-container{
+    
+}
+.experience-items{
+    width: 278px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 6px 25px;
+    margin: 12px auto;
+
+}
+#exp-head-icons{
+    padding: 30px;
+
+}
+.exp-btm-icon{
+    padding: 30px 1px;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+/* ******* working proceess section ******* */
+
+.process-container {
+    background: url(../../assets/images/logo-header.png);
+    height: 500px;
+    color: #ffffff !important;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.process-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.process-container>h1 {
+    color: white;
+    padding: 15px 1px;
+    position: relative;
+    z-index: 2;
+    backdrop-filter: blur(5px); 
+
+}
+.process-container>p {
+    color: white;
+    padding: 15px 1px;
+    position: relative;
+    z-index: 2;
+    backdrop-filter: blur(5px); 
+
+}
+.process-icon{
+    padding: 30px 1px;
+    font-size: 4rem;
+    color: white !important;
+    cursor: pointer;
+    padding: 15px 1px;
+    position: relative;
+    z-index: 2;
+    backdrop-filter: blur(5px); 
+
+}
+
+
+/* ****** Work Experience  Section ****** */
+#exp-section{
+    background-color: #fdf4f4;
+    padding: 100px  1px;
+    /* color: #012952; */
+}
+.exp-container{
+    width: 85%;
+    margin: auto;
+
+}
+
+.exp-heading{
+    text-align: center;
+    width: 100%;
+    padding: 41px 1px;
+
+}
+.exp-2-items{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px 0px;
+
+}
+.exp-content{
+    margin: 15px auto;
+    width: 500px;
+    background: white;
+    padding: 26px 20px;
+    border-radius: 10px;
+}
+
+.exp-3-items{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.exp-3-items-content{
+margin: 15px auto;
+    width: 284px;
+    background: white;
+    padding: 26px 20px;
+    border-radius: 10px;
+}
+
+/* ******* portofolio Sction**** */
+.portofolio-container{
+    background-color: #f7e9e9;
+    padding: 20px 1px;
+    /* color: #01274d; */
+}
+.potofolio-headings{
+    text-align: center;
+    padding: 30px;
+}
+.potofolio-images{
+   padding: 40px 0px;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+.potofolio-items{
+    margin: 15px auto;
+    width: 436px;
+    border-radius: 15px;
+}
+.potofolio-items>img{
+    width: 100%;
+    border-radius: 15px;
+
+}
+
+.clints-img{
+    border: 3px solid #ec5b53;
+    width: 61px;
+    border-radius: 50px;
+    margin-bottom: 6px;
+}
+.clients-icon{
+    font-size: 2rem;
+    color: #ec5b53;
+    padding: 16px 6px;
+
+}
+.client-btm-name{
+    padding: 13px 1px;
+    font-family: sans-serif;
+    /* color: black; */
+
+}
+
+/* ******* stay in touch Section ******* */
+
+.touch-counter{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 5px;
+    /* color: #01274d; */
+    text-align: center;
+}
+.touch-search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.touch-input{
+    margin: 15px auto;
+    width: 400px;
+    padding: 10px 12px;
+  margin: 12px 12px
+}

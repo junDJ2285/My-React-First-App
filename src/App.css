@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  /* color: black; */
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.mn-btn{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: max-content;
   color: white;
+  border-radius: 6px;
+  background-color: #ec5b53;
+  padding: 12px 25px;
+  text-decoration: none;
+  font-family: sans-serif;
+
+}
+.mn-line-center{
+  background: #ec5b53;
+    height: 2px;
+    width:8% ;
+    /* margin: auto; */
+    margin: 20px auto;
+}
+.mn-line-left{
+  background: #ec5b53;
+    height: 2px;
+    width:20% ;
+    margin: 15px 0px;
+}
+.mn-headings{
+  /* color: #002d5b; */
+    font-family: emoji;
+    font-size: 2.5rem;
+}
+.mn-para{
+  font-family: sans-serif;
+  word-spacing: 2px;
+  padding: 12px  0px;
+  line-height: 25px;
+  --background-transition: 0.3s;
+}
+.mn-date{
+  font-family: sans-serif;
+  word-spacing: 2px;
+  padding: 12px 1px;
+  line-height: 30px;
+  --background-transition: 0.3s;
+  color: #ec5b53;
+}
+.progress-bar-white{
+  width: 100%;
+  border-radius: 12px;
+  background-color: antiquewhite;
+  color: white;
+  margin-top: 8px;
+  font-size: 12px;
+
+
+}
+.progress-bar-pink{
+  border-radius: 12px 0px 0px 12px;
+  background-color: #ec5b53;
+  width: 70%;
+  padding: 4px 15px;
+
 }
 
-.App-link {
-  color: #61dafb;
+.medium-headings{
+  font-weight: 100;
+  font-family: sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
