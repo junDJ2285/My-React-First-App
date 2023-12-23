@@ -41,13 +41,14 @@ const Header = () => {
                     </NavLink>
                 </div>
                 <div>
-                    <NavLink to={"/Home"}
+                    <NavLink to={"/Portofolios"}
                         className="mn-btn hide-btn">
                         Hire Me
                     </NavLink>
 
                 </div>
-                <div className="dropdown-btn"><DropdownBtn/></div>
+                <div className="dropdown-btn"><DropdownBtn/>
+                </div>
             </header>
             
         </div>

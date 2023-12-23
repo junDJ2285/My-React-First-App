@@ -1,13 +1,18 @@
-import { DownOutlined } from '@ant-design/icons';
+import {UnorderedListOutlined} from '@ant-design/icons';
 import { Dropdown, Space } from 'antd';
 import { NavLink } from 'react-router-dom';
+
+
 const items = [
+    
     {
+        
         label: (
             <NavLink to={"/"}
-                className={({ isActive }) =>
-                    `nav-link ${isActive ? "active-link" : ""}`
-                }>
+            className={({ isActive }) =>
+
+            ` ${isActive ? "active-link" : ""}`
+        }>
                 Home
             </NavLink>
         ),
@@ -18,10 +23,10 @@ const items = [
     },
     {
         label: (
-            <NavLink to={"/About"}
-                className={({ isActive }) =>
-                    `nav-link ${isActive ? "active-link" : ""}`
-                }>
+            <NavLink to={"/About"} className={({ isActive }) =>
+
+            ` ${isActive ? "active-link" : ""}`
+        }>
                 About
             </NavLink>
         ),
@@ -32,29 +37,46 @@ const items = [
     },
     {
         label: (
-            <NavLink to={"/Portofolios"}
-                className={({ isActive }) =>
+            <NavLink to={"/Portofolios"} className={({ isActive }) =>
 
-                    `nav-link ${isActive ? "active-link" : ""}`
-                }>
+            ` ${isActive ? "active-link" : ""}`
+        }>
                 Portfolio
             </NavLink>
         ),
         key: '3',
-        disabled: true,
+
     },
+    {
+        type: 'divider',
+    },
+    {
+        label: (
+            <NavLink to={"/Contact"} className={({ isActive }) =>
+
+            ` ${isActive ? "active-link" : ""}`
+        }>
+                contact
+            </NavLink>
+        ),
+        key: '4',
+
+    },
+
 ];
 const DropdownBtn = () => (
     <Dropdown
+    style={{width: "1000px"}}
       menu={{
         items,
       }}
-      trigger={['click']}
+      trigger={['click','hover']}
     >
       <a onClick={(e) => e.preventDefault()}>
-        <Space>
-          Click me
-          <DownOutlined />
+        <Space >
+          <div className='nav-link-dropdown'>
+          <UnorderedListOutlined />
+          </div>
         </Space>
       </a>
     </Dropdown>

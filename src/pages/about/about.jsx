@@ -21,7 +21,7 @@ const About = () => {
 
                     <div className="about-Container">
                         <div className="about-Items ">
-                            <img id="about-img" decoding="async" width="350" height="400" src="https://websitedemos.net/personal-portfolio-02/wp-content/uploads/sites/770/2021/02/section-1-bg1.jpg" class="attachment-full size-full wp-image-778" alt="" srcset="https://websitedemos.net/personal-portfolio-02/wp-content/uploads/sites/770/2021/02/section-1-bg1.jpg 640w, https://websitedemos.net/personal-portfolio-02/wp-content/uploads/sites/770/2021/02/section-1-bg1-236x300.jpg 236w, https://websitedemos.net/personal-portfolio-02/wp-content/uploads/sites/770/2021/02/section-1-bg1-400x509.jpg 400w" sizes="(max-width: 640px) 100vw, 640px"></img>
+                        <img id="about-img" src={require("../../assets/images/portfolio-img.jpg")} alt="" />
                         </div>
 
                         <div className="about-Items">

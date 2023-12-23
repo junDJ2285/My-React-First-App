@@ -12,6 +12,12 @@
     color: #002d5b;
     width: 510px;
 }
+.home-right{
+    width: 430px;
+}
+.home-right>img{
+    width: 100%;
+}
 .left-icons{
     height: 75%;
     font-size: 1.5rem;
@@ -25,6 +31,7 @@
     flex-direction: column;
     gap: 43px;
 }
+
 
 /* ********** About Section *********** */
 .sec2-container{
@@ -209,13 +216,13 @@ margin: 15px auto;
 
 /* ******* portofolio Sction**** */
 .portofolio-container{
-    background-color: #f7e9e9;
+    background-color: #fefafa;
     padding: 20px 1px;
     /* color: #01274d; */
 }
 .potofolio-headings{
     text-align: center;
-    padding: 30px;
+    padding: 50px 10px;
 }
 .potofolio-images{
    padding: 40px 0px;
@@ -225,7 +232,8 @@ margin: 15px auto;
 }
 .potofolio-items{
     margin: 15px auto;
-    width: 436px;
+    width: 100%;
+    max-width: 443px;
     border-radius: 15px;
 }
 .potofolio-items>img{
@@ -272,7 +280,7 @@ margin: 15px auto;
 }
 .touch-input{
     margin: 15px auto;
-    width: 400px;
+    width: 330px;
     padding: 10px 12px;
   margin: 12px 12px
 }

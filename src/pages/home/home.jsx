@@ -32,8 +32,8 @@ const Home = () => {
 
                     </div>
                 </div>
-                <div >
-                    <img fetchpriority="high" decoding="async" width="400" height="600" src="https://websitedemos.net/personal-portfolio-02/wp-content/uploads/sites/770/2022/02/h1_hero-bg.png" class="attachment-large size-large wp-image-1240" alt="" srcset="https://websitedemos.net/personal-portfolio-02/wp-content/uploads/sites/770/2022/02/h1_hero-bg.png 645w, https://websitedemos.net/personal-portfolio-02/wp-content/uploads/sites/770/2022/02/h1_hero-bg-209x300.png 209w, https://websitedemos.net/personal-portfolio-02/wp-content/uploads/sites/770/2022/02/h1_hero-bg-400x574.png 400w" sizes="(max-width: 645px) 100vw, 645px"></img>
+                <div className="home-right">
+                    <img src={require("../../assets/images/main-img.png")} alt="" />
                 </div>
             </div>
             <div className="sec2-container">

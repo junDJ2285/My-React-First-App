@@ -1,26 +1,50 @@
 import React from "react";
+import "./portofolios.css"
 
-const Portofolios = () =>{
+const Portofolios = () => {
 
-    return(
+    return (
         <div>
-             <div className="portofolio-container">
+            <div className="portofolio-Container">
                 <div className="potofolio-headings">
-                    <h1 className="mn-headings">My potofolios</h1>
+                    <h1 className="mn-headings">Portfolios</h1>
                     <p className="mn-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias!</p>
                 </div>
-                <div className="potofolio-images">
-                    <div className="potofolio-items">
-                        <img src={require("../../assets/images/portfolio-2.png")} alt="" />
+                <div className="portfolio-content">
+                    <div className="potofolio-headings">
+                        <p className="mn-headings">What Service You Will Get From Me</p>
+                        <p className="mn-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias!</p>
+
                     </div>
-                    <div className="potofolio-items">
-                        <img src={require("../../assets/images/portfolio-3 (1).png")} alt="" />
+                    <div>
+                        <div className="portofilo-img">
+                            <div className="potofolio-items-lg">
+                                <img src={require("../../assets/images/portfolio-2.png")} alt="" />
+                            </div>
+                            <div>
+                                <div className="potofolio-items-sm">
+                                    <img src={require("../../assets/images/portfolio-3 (1).png")} alt="" />
+                                </div>
+                                <div className="potofolio-items-sm">
+                                    <img src={require("../../assets/images/portfolio-4.png")} alt="" />
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div className="potofolio-items">
-                        <img src={require("../../assets/images/portfolio-4.png")} alt="" />
+                    <div className="potofolio-images">
+                        <div className="potofolio-items-sm">
+                            <img src={require("../../assets/images/portfolio-2.png")} alt="" />
+                        </div>
+                        <div className="potofolio-items-sm">
+                            <img src={require("../../assets/images/portfolio-3 (1).png")} alt="" />
+                        </div>
+                        <div className="potofolio-items-sm">
+                            <img src={require("../../assets/images/portfolio-4.png")} alt="" />
+                        </div>
                     </div>
                 </div>
             </div>
+
 
         </div>
     )
