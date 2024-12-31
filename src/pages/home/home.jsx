@@ -33,7 +33,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="home-right">
-                    <img src={require("../../assets/images/main-img.png")} alt="" />
+                    <img src={require("../../assets/images/profile-img.png")} alt="" />
                 </div>
             </div>
             <div className="sec2-container">
@@ -210,7 +210,7 @@ const Home = () => {
                         <div className="experience-items">
                             <div className="clients-icon">@</div>
                             <img className="clints-img" src={require("../../assets/images/male-1.jpg")} alt="" />
-                            
+
                             <p className="mn-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias itaque doloremque odit quaerat error Lorem ipsum dolor sit amet.</p>
                             <p className="mn-line-center"></p>
                             <div className="client-btm-name">
@@ -220,7 +220,7 @@ const Home = () => {
                         <div className="experience-items ">
                             <div className="clients-icon">@</div>
                             <img className="clints-img" src={require("../../assets/images/male-3.jpg")} alt="" />
-                           
+
                             <p className="mn-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias itaque doloremque odit quaerat error Lorem ipsum dolor sit amet.</p>
                             <p className="mn-line-center"></p>
                             <div className="client-btm-name">
@@ -230,7 +230,7 @@ const Home = () => {
                         <div className="experience-items ">
                             <div className="clients-icon">@</div>
                             <img className="clints-img" src={require("../../assets/images/female-3-150x150.jpg")} alt="" />
-                          
+
                             <p className="mn-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias itaque doloremque odit quaerat error Lorem ipsum dolor sit amet.</p>
                             <p className="mn-line-center"></p>
                             <div className="client-btm-name">
