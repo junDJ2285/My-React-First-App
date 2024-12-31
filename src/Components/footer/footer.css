@@ -1,23 +1,26 @@
-.footer{
-    
-    background-color: #002d5b;
+.footer {
+
+    /* background-color: #002d5b; */
     text-align: center;
     padding: 60px 1px;
     color: white !important;
 }
-.home-footer{
+
+.home-footer {
     display: flex;
-    justify-content: space-evenly ;
+    justify-content: space-evenly;
     text-align: center;
     flex-wrap: wrap;
     color: white !important;
 }
-.footer-items{
+
+.footer-items {
     width: 350px;
     margin: 15px auto;
     color: white !important;
 }
-.footer-icons{
+
+.footer-icons {
     font-size: 1.5rem;
     display: flex;
     justify-content: center;
