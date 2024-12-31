@@ -9,7 +9,7 @@
 .home-left{
     display: flex;
     align-items: center;
-    color: #002d5b;
+    /* color: #002d5b; */
     width: 510px;
 }
 .home-right{
