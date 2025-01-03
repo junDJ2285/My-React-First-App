@@ -9,8 +9,9 @@ const Header = () => {
     return (
         <div>
             <header className="header-container">
-                <div className="">
+                <div className="header-logo">
                     <img width="70" height="70" src="https://websitedemos.net/personal-portfolio-02/wp-content/uploads/sites/770/2021/02/logo-1-70x70.png" class="custom-logo" alt="" decoding="async" srcset="https://websitedemos.net/personal-portfolio-02/wp-content/uploads/sites/770/2021/02/logo-1-70x70.png 70w, https://websitedemos.net/personal-portfolio-02/wp-content/uploads/sites/770/2021/02/logo-1-150x150.png 150w, https://websitedemos.net/personal-portfolio-02/wp-content/uploads/sites/770/2021/02/logo-1.png 200w" sizes="(max-width: 70px) 100vw, 70px"></img>
+                    <h1>TouchStar<b>DEV</b></h1>
                 </div>
                 <div className="nav-link-wraper mn-para">
                     <NavLink to={"/"}
@@ -25,12 +26,12 @@ const Header = () => {
                         }>
                         About
                     </NavLink>
-                    <NavLink to={"/Portofolios"}
+                    <NavLink to={"/Skills"}
                         className={({ isActive }) =>
 
                             `nav-link ${isActive ? "active-link" : ""}`
                         }>
-                        Portfolio
+                        Skills
                     </NavLink>
                     <NavLink to={"/Contact"}
                         className={({ isActive }) =>
@@ -41,16 +42,16 @@ const Header = () => {
                     </NavLink>
                 </div>
                 <div>
-                    <NavLink to={"/Portofolios"}
+                    <NavLink to={"/Contact"}
                         className="mn-btn hide-btn">
-                        Hire Me
+                        Contact Me
                     </NavLink>
 
                 </div>
-                <div className="dropdown-btn"><DropdownBtn/>
+                <div className="dropdown-btn"><DropdownBtn />
                 </div>
             </header>
-            
+
         </div>
     )
 }

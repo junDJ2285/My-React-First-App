@@ -1,24 +1,28 @@
-.home-container{
+.home-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 84%;
     margin: auto;
-    
+
 }
-.home-left{
+
+.home-left {
     display: flex;
     align-items: center;
     /* color: #002d5b; */
     width: 510px;
 }
-.home-right{
+
+.home-right {
     width: 430px;
 }
-.home-right>img{
+
+.home-right>img {
     width: 100%;
 }
-.left-icons{
+
+.left-icons {
     height: 75%;
     font-size: 1.5rem;
     line-height: 2.5rem;
@@ -26,7 +30,8 @@
     cursor: pointer;
 
 }
-.left-content{
+
+.left-content {
     display: flex;
     flex-direction: column;
     gap: 43px;
@@ -34,26 +39,30 @@
 
 
 /* ********** About Section *********** */
-.sec2-container{
+.sec2-container {
 
     background-color: #ffffff;
     padding-bottom: 60PX;
 }
-.home-about{
+
+.home-about {
     text-align: center;
 }
-.about-heading{
- padding: 95px 10px;
- /* line-height: 3rem; */
+
+.about-heading {
+    padding: 40px 10px;
+    /* line-height: 3rem; */
 }
-.about-container{
+
+.about-container {
     font-family: sans-serif;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     text-align: left;
 }
-.about-items{
+
+.about-items {
     margin: 15px 0px;
     width: 320px;
     display: flex;
@@ -61,19 +70,21 @@
     justify-content: center;
 
 }
-#about-img{
+
+#about-img {
     width: 100%;
     box-shadow: 15px -15px 0px 1px #ec5b53;
     border-radius: 12px;
 }
-.about-items-heading{
+
+.about-items-heading {
     font-family: emoji;
     font-size: 1.67rem;
 }
 
 /* ********* work experience sec ******* */
-.work-exp-container{
-    background-color:#fdf4f3 ;
+.work-exp-container {
+    background-color: #fdf4f3;
     padding: 50px 0px;
     /* color : #002d5b; */
     font-family: sans-serif;
@@ -81,18 +92,20 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.home-work{
+
+.home-work {
     width: 84%;
     margin: auto;
     text-align: center;
 }
-.work-heading{
+
+.work-heading {
     /* padding-bottom: 100px; */
 }
-.work-exp-container{
-    
-}
-.experience-items{
+
+.work-exp-container {}
+
+.experience-items {
     width: 278px;
     display: flex;
     align-items: center;
@@ -104,11 +117,13 @@
     margin: 12px auto;
 
 }
-#exp-head-icons{
+
+#exp-head-icons {
     padding: 30px;
 
 }
-.exp-btm-icon{
+
+.exp-btm-icon {
     padding: 30px 1px;
     font-size: 3rem;
     cursor: pointer;
@@ -144,18 +159,20 @@
     padding: 15px 1px;
     position: relative;
     z-index: 2;
-    backdrop-filter: blur(5px); 
+    backdrop-filter: blur(5px);
 
 }
+
 .process-container>p {
     color: white;
     padding: 15px 1px;
     position: relative;
     z-index: 2;
-    backdrop-filter: blur(5px); 
+    backdrop-filter: blur(5px);
 
 }
-.process-icon{
+
+.process-icon {
     padding: 30px 1px;
     font-size: 4rem;
     color: white !important;
@@ -163,37 +180,40 @@
     padding: 15px 1px;
     position: relative;
     z-index: 2;
-    backdrop-filter: blur(5px); 
+    backdrop-filter: blur(5px);
 
 }
 
 
 /* ****** Work Experience  Section ****** */
-#exp-section{
+#exp-section {
     background-color: #fdf4f4;
-    padding: 100px  1px;
+    padding: 100px 1px;
     /* color: #012952; */
 }
-.exp-container{
+
+.exp-container {
     width: 85%;
     margin: auto;
 
 }
 
-.exp-heading{
+.exp-heading {
     text-align: center;
     width: 100%;
     padding: 41px 1px;
 
 }
-.exp-2-items{
+
+.exp-2-items {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 30px 0px;
 
 }
-.exp-content{
+
+.exp-content {
     margin: 15px auto;
     width: 500px;
     background: white;
@@ -201,13 +221,14 @@
     border-radius: 10px;
 }
 
-.exp-3-items{
+.exp-3-items {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
-.exp-3-items-content{
-margin: 15px auto;
+
+.exp-3-items-content {
+    margin: 15px auto;
     width: 284px;
     background: white;
     padding: 26px 20px;
@@ -215,46 +236,52 @@ margin: 15px auto;
 }
 
 /* ******* portofolio Sction**** */
-.portofolio-container{
+.portofolio-container {
     background-color: #fefafa;
     padding: 20px 1px;
     /* color: #01274d; */
 }
-.potofolio-headings{
+
+.potofolio-headings {
     text-align: center;
     padding: 50px 10px;
 }
-.potofolio-images{
-   padding: 40px 0px;
-   display: flex;
-   justify-content: space-between;
-   flex-wrap: wrap;
+
+.potofolio-images {
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
-.potofolio-items{
+
+.potofolio-items {
     margin: 15px auto;
     width: 100%;
     max-width: 443px;
     border-radius: 15px;
 }
-.potofolio-items>img{
+
+.potofolio-items>img {
     width: 100%;
     border-radius: 15px;
 
 }
 
-.clints-img{
+.clints-img {
     border: 3px solid #ec5b53;
     width: 61px;
     border-radius: 50px;
     margin-bottom: 6px;
 }
-.clients-icon{
+
+.clients-icon {
     font-size: 2rem;
     color: #ec5b53;
     padding: 16px 6px;
 
 }
-.client-btm-name{
+
+.client-btm-name {
     padding: 13px 1px;
     font-family: sans-serif;
     /* color: black; */
@@ -263,7 +290,7 @@ margin: 15px auto;
 
 /* ******* stay in touch Section ******* */
 
-.touch-counter{
+.touch-counter {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -272,15 +299,17 @@ margin: 15px auto;
     /* color: #01274d; */
     text-align: center;
 }
-.touch-search{
+
+.touch-search {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
-.touch-input{
+
+.touch-input {
     margin: 15px auto;
     width: 330px;
     padding: 10px 12px;
-  margin: 12px 12px
+    margin: 12px 12px
 }

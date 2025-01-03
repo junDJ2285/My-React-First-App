@@ -16,7 +16,7 @@ const Contact = () => {
         <div className="contact">
             <div className="potofolio-headings">
                 <h1 className="mn-headings">Contact</h1>
-                <p className="mn-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias!</p>
+                <p className="mn-para">Feel free to reach out with any questions, project ideas, or collaboration <br /> opportunities. I'm just a message away and would love to hear from you.</p>
             </div>
             <div className="contact-container">
                 <div className="contact-three-items">
@@ -91,7 +91,7 @@ const Contact = () => {
                                     </Form.Item>
 
                                     <Form.Item
-                                        
+
                                     >
                                         <Button htmlType="submit" className="mn-btn">
                                             Send Message
@@ -105,8 +105,7 @@ const Contact = () => {
                         <div className="about-Items ">
                             <h2 className="about-items-heading">Messeage Me</h2>
                             <p className="mn-line-left"></p>
-                            <p className="mn-para">Lorem ipsum dolor,
-                                sit amet consectetur adipisicing elit. Aspernatur aliquid architecto enim omnis autem dolore rerum rem asperiores impedit est, tempore quasi voluptatibus? Cupiditate, quos unde tempore assumenda hic sint.</p>
+                            <p className="mn-para">Whether you have a project idea, need assistance, or just want to discuss potential collaborations, I'm here to help. Feel free to reach out with your questions or ideas, and I'll respond promptly. Let's work together to turn your vision into reality!</p>
                             <br />
 
                             <div className="">

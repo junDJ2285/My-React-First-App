@@ -12,19 +12,19 @@ const Home = () => {
         <div >
             <div className="home-container">
                 <div className="home-left ">
-                    <div className="left-icons">
+                    {/* <div className="left-icons">
                         <LinkedinOutlined />
                         <IconFont type="icon-facebook" />
                         <TwitterOutlined />
                         <GoogleOutlined />
 
-                    </div>
+                    </div> */}
                     <div className="left-content">
-                        <h1 className=" mn-headings">I`m Web Developer JUNAID ABBAS</h1>
-                        <p className="mn-para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto nihil, asperiores quam cupiditate eligendi excepturi tempora consequatur aspernatur molestias. Itaque.</p>
+                        <h1 className=" mn-headings">Professional Data Scientist & Software Development</h1>
+                        <p className="mn-para">I'm Asif - a Pakistan based Software developers,with a passion for all screen Specially for Mobile.</p>
                         <div>
 
-                            <NavLink to={"/Portofolio"}
+                            <NavLink to={"/Portofolios"}
                                 className="mn-btn" style={{ margin: "20px 1px" }}>
                                 Learn more
                             </NavLink>
@@ -40,7 +40,7 @@ const Home = () => {
                 <div className="home-about">
                     <div className="about-heading">
                         <h1 className="mn-headings">About Me</h1>
-                        <p className="mn-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit!</p>
+                        <p className="mn-para">Professional Contract Software Development</p>
                         <p className="mn-line-center"></p>
 
 
@@ -49,9 +49,9 @@ const Home = () => {
                         <div className="about-items">
                             <h2 className="about-items-heading">Developing With A Passion <br /> While Exploring The World</h2>
                             <p className="mn-line-left"></p>
-                            <p className="mn-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias itaque doloremque odit quaerat error, modi libero obcaecati, eaque dolores, exercitationem ullam neque laboriosam tempore quam necessitatibus  corrupti impedit odio blanditiis sint consequatur ratione, architecto vitae.</p>
+                            <p className="mn-para">I'm available for hire on small to medium web development projects for the short to medium term. From micro social campaign sites through MVPs to full site and app builds, please get in touch. .</p>
                             <br />
-                            <p className="mn-para">Lorem ipsum dolor sit amet consectetur adipisicing elit.  error.</p>
+                            <p className="mn-para">I also consult on exisiting projects, particularly on performance analysis and best web practices</p>
 
                             <NavLink to={"/Portofolio"}
                                 className="mn-btn" style={{ margin: "20px 1px" }}>
@@ -61,7 +61,7 @@ const Home = () => {
 
                         </div>
                         <div className="about-items ">
-                            <p className="mn-para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur aliquid architecto enim omnis autem dolore rerum rem asperiores impedit est, tempore quasi voluptatibus? Cupiditate, quos unde tempore assumenda hic sint.</p>
+                            <p className="mn-para">I'm open to collaboration on a range of web development projects, available for hire on a short to medium-term basis. Whether you're looking for someone to create a simple yet impactful micro-site for a social campaign, develop an MVP to test your startup idea, or build a fully functional website or app, I'm here to help bring your vision to life.</p>
                         </div>
                         <div className="about-items ">
                             <img id="about-img" decoding="async" width="350" height="400" src="https://websitedemos.net/personal-portfolio-02/wp-content/uploads/sites/770/2021/02/section-1-bg1.jpg" class="attachment-full size-full wp-image-778" alt="" srcset="https://websitedemos.net/personal-portfolio-02/wp-content/uploads/sites/770/2021/02/section-1-bg1.jpg 640w, https://websitedemos.net/personal-portfolio-02/wp-content/uploads/sites/770/2021/02/section-1-bg1-236x300.jpg 236w, https://websitedemos.net/personal-portfolio-02/wp-content/uploads/sites/770/2021/02/section-1-bg1-400x509.jpg 400w" sizes="(max-width: 640px) 100vw, 640px"></img>
@@ -123,55 +123,38 @@ const Home = () => {
                 <div className="exp-container">
                     <div className="exp-heading">
                         <h1 className="mn-headings">Work Experience</h1>
-                        <p className="mn-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        <p className="mn-para">Work and Experience: A showcase of my professional journey, projects completed, and skills honed over the years.</p>
                         <p className="mn-line-center"></p>
                     </div>
                     <div className="exp-items-container">
                         <div className="exp-2-items">
                             <div className="exp-content">
-                                <h2 className="medium-headings">UI/UX Design</h2>
-                                <p className="mn-date">2018-2020</p>
-                                <p className="mn-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias itaque doloremque odit quaerat error Lorem ipsum dolor sit amet.</p>
-                                <div className="progress-bar-white">
-                                    <div className="progress-bar-pink"><span>UI/UX Designer</span></div>
-                                </div>
+                                <h2 className="medium-headings">IQRA UNIVERSITY (Official)</h2>
+                                <p className="mn-date">2020-2024 OnSite</p>
+                                <h3 className="medium-headings">Lecturer</h3>
+                                <p className="mn-para">Teaching Labs and Courses like Programming (Java, C#, and Python)</p>
+                                <h3 className="medium-headings">Instructor</h3>
+                                <p className="mn-para">Teaching Labs and Courses like Programming (Java, C#, and Python), etc.<br></br>
+                                    Assisting Students in projects</p>
+                                {/* <div className="progress-bar-white">
+                                    <div className="progress-bar-pink"><span>BIZKIDZ ACADEMY</span></div>
+                                </div> */}
                             </div>
                             <div className="exp-content">
-                                <h2 className="medium-headings">Frontend Developer</h2>
-                                <p className="mn-date">2018-2020</p>
-                                <p className="mn-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias itaque doloremque odit quaerat error Lorem ipsum dolor sit amet.</p>
-                                <div className="progress-bar-white">
+                                <h2 className="medium-headings">TOUCH STAR INSTITUDE</h2>
+                                <p className="mn-date">Jun 2019 - Present · 5 yrs 8 month</p>
+                                <p className="mn-para">As the Founder, I established and currently lead a dynamic institute dedicated to offering high-quality short computer courses. My role involves a wide range of responsibilities from strategic planning to hands-on teaching, ensuring the institute’s growth and the success of its students</p>
+                                {/* <div className="progress-bar-white">
                                     <div className="progress-bar-pink"><span>Frontend Developer</span></div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
+                        <NavLink to={"/About"}
+                            className="mn-btn" style={{ margin: "20px 1px" }}>
+                            SEE MORE
+                        </NavLink>
 
-                        <div className="exp-3-items">
-                            <div className="exp-3-items-content">
-                                <h2 className="medium-headings">UI/UX Design</h2>
-                                <p className="mn-date">2018-2020</p>
-                                <p className="mn-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias itaque doloremque odit quaerat error Lorem ipsum dolor sit amet.</p>
-                                <div className="progress-bar-white">
-                                    <div className="progress-bar-pink"><span>UI/UX Design</span></div>
-                                </div>
-                            </div>
-                            <div className="exp-3-items-content">
-                                <h2 className="medium-headings">Web Developer</h2>
-                                <p className="mn-date">2018-2020</p>
-                                <p className="mn-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias itaque doloremque odit quaerat error Lorem ipsum dolor sit amet.</p>
-                                <div className="progress-bar-white">
-                                    <div className="progress-bar-pink"><span>Web Developerr</span></div>
-                                </div>
-                            </div>
-                            <div className="exp-3-items-content">
-                                <h2 className="medium-headings">Frontend Developer</h2>
-                                <p className="mn-date">2018-2020</p>
-                                <p className="mn-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias itaque doloremque odit quaerat error Lorem ipsum dolor sit amet.</p>
-                                <div className="progress-bar-white">
-                                    <div className="progress-bar-pink"><span>Frontend Developer</span></div>
-                                </div>
-                            </div>
-                        </div>
+
                         <div>
 
                         </div>
@@ -180,26 +163,8 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="portofolio-container">
-                <div className="potofolio-headings">
-                    <h1 className="mn-headings">My potofolios</h1>
-                    <p className="mn-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias!</p>
-                    <p className="mn-line-center"></p>
-                </div>
-                <div className="potofolio-images">
-                    <div className="potofolio-items">
-                        <img src={require("../../assets/images/portfolio-2.png")} alt="" />
-                    </div>
-                    <div className="potofolio-items">
-                        <img src={require("../../assets/images/portfolio-3 (1).png")} alt="" />
-                    </div>
-                    <div className="potofolio-items">
-                        <img src={require("../../assets/images/portfolio-4.png")} alt="" />
-                    </div>
-                </div>
-            </div>
 
-            <div className="work-exp-container">
+            {/* <div className="work-exp-container">
                 <div className="home-work">
                     <div className="work-heading">
                         <h1 className="mn-headings">What  My Clients Says</h1>
@@ -241,11 +206,11 @@ const Home = () => {
 
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             <div className="touch-counter">
                 <h1 className="mn-headings">Stay In Touch</h1>
-                <p className="mn-para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla iste ut hic tempore earum qui! <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p className="mn-para">Contact Me: Feel free to reach out with any questions, project ideas, or collaboration <br /> opportunities. I'm just a message away and would love to hear from you</p>
                 <p className="mn-line-center"></p>
 
                 <div className="touch-search">

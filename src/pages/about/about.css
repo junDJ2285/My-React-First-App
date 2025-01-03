@@ -1,18 +1,40 @@
-.About-headings{
-    padding: 46px 0px;
+.About-headings {
+    padding: 30px 0px;
     text-align: center;
     font-family: emoji;
-    font-size: 2rem;
+    font-size: 3rem;
 }
-.about-Container{
-    padding: 56px 1px;
+
+.about {
+    padding: 0px 0px;
+    text-align: center;
+    font-family: emoji;
+    /* font-size: 2rem; */
+}
+
+.session-cards {
+    width: 80%;
+
+}
+
+.Session-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 84%;
+    margin: auto;
+}
+
+.about-Container {
+    padding: 30px 1px;
     font-family: sans-serif;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     text-align: left;
 }
-.about-Items{
+
+.about-Items {
     margin: 15px;
     width: 320px;
     display: flex;
@@ -20,7 +42,8 @@
     /* align-items: center; */
     flex-direction: column;
 }
-.about-icons{
+
+.about-icons {
     padding: 15px 1px;
     font-size: 1.4rem;
     display: flex;
@@ -30,13 +53,14 @@
 }
 
 
-.data-items{
+.data-items {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 
 }
-.data-items-content{
+
+.data-items-content {
     margin: 15px;
     width: 518px;
     /* background: white; */
@@ -44,27 +68,29 @@
     border-radius: 10px;
 
 }
-.data-right-items{
+
+.data-right-items {
     display: flex;
     flex-direction: column;
     gap: 33px;
 }
 
-.about-2items-container{
+.about-2items-container {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 
 }
+
 .about-Items-btm {
-        width: 470px;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-        background-color: #ffffff;
-        border-radius: 10px;
-        padding: 6px 25px;
-        /* margin: 12px auto; */
-    
+    width: 470px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 6px 25px;
+    /* margin: 12px auto; */
+
 }

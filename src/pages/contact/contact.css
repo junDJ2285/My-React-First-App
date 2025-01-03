@@ -1,15 +1,17 @@
-.contact-container{
-width: 90%;
-margin: auto;
-padding: 100px 0px;
-/* background-color: antiquewhite; */
+.contact-container {
+    width: 90%;
+    margin: auto;
+
+    /* background-color: antiquewhite; */
 }
-.contact-three-items{
-display: flex;
-justify-content: space-around;
-flex-wrap: wrap;
+
+.contact-three-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
-.contact-items-left{
+
+.contact-items-left {
     background-color: white;
     width: 60%;
     border-radius: 8px;
@@ -18,13 +20,15 @@ flex-wrap: wrap;
 
 
 }
-.contact-left-content{
+
+.contact-left-content {
     width: 81%;
     margin: auto;
-    
+
 
 }
-.contact-items{
+
+.contact-items {
     width: 240px;
     background-color: white;
     justify-content: center;
@@ -34,42 +38,48 @@ flex-wrap: wrap;
     margin: 15px 0px;
     box-shadow: 0px 0px 13px 0px gray
 }
-.conatct-icons{
+
+.conatct-icons {
     font-size: 2rem;
     padding: 15px 0px;
     /* box-shadow: 0px 0px 13px 0px gray */
 }
-.contact-2-items{
+
+.contact-2-items {
     display: flex;
     justify-content: space-evenly;
     padding: 33px 8px;
     flex-wrap: wrap;
 }
 
-.contact-form{
+.contact-form {
     padding: 20px 0px;
-    
+
 }
-.contact-inputs{
+
+.contact-inputs {
     border-radius: 1px;
     height: 50px;
     background-color: #fafafa;
 }
-.contact-items-right{
+
+.contact-items-right {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-@media(max-width:640px){
-    .contact-items-left{
+
+@media(max-width:640px) {
+    .contact-items-left {
         width: 100%;
         margin: auto;
-        
-    
+
+
     }
-    .contact-container{
+
+    .contact-container {
         width: 100%;
 
-        }
+    }
 }
