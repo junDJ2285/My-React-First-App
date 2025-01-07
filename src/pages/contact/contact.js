@@ -3,8 +3,25 @@ import { Button, Checkbox, Form, Input } from 'antd';
 import { createFromIconfontCN, PhoneOutlined, LinkedinOutlined, IconFont, TwitterOutlined, GoogleOutlined } from '@ant-design/icons';
 import TextArea from "antd/es/input/TextArea";
 const Contact = () => {
-    const onFinish = (values) => {
+    const onFinish = async (values) => {
         console.log('Success:', values);
+        try {
+            const response = await fetch('http://localhost:5000/api/contact', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(values),
+            });
+
+            if (response.ok) {
+                alert('Message sent successfully!');
+                // setFormData({ name: '', email: '', message: '' });
+            } else {
+                alert('Failed to send message. Please try again.');
+            }
+        } catch (error) {
+            console.error('Error sending message:', error);
+            alert('An error occurred. Please try again later.');
+        }
     };
     const onFinishFailed = (errorInfo) => {
         console.log('Failed:', errorInfo);

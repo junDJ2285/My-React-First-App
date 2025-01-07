@@ -76,7 +76,7 @@ const Home = () => {
                 <div className="home-work">
                     <div className="work-heading">
                         <h1 className="mn-headings">What  Services I'm Providing </h1>
-                        <p className="mn-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit!</p>
+                        <p className="mn-para">Offering tailored web development, software solutions, and data-driven insights to meet your specific needs.</p>
                         <p className="mn-line-center"></p>
 
 
@@ -123,7 +123,7 @@ const Home = () => {
                 <div className="exp-container">
                     <div className="exp-heading">
                         <h1 className="mn-headings">Work Experience</h1>
-                        <p className="mn-para">Work and Experience: A showcase of my professional journey, projects completed, and skills honed over the years.</p>
+                        <p className="mn-para"> A showcase of my professional journey, projects completed, and skills honed over the years.</p>
                         <p className="mn-line-center"></p>
                     </div>
                     <div className="exp-items-container">
@@ -210,7 +210,7 @@ const Home = () => {
 
             <div className="touch-counter">
                 <h1 className="mn-headings">Stay In Touch</h1>
-                <p className="mn-para">Contact Me: Feel free to reach out with any questions, project ideas, or collaboration <br /> opportunities. I'm just a message away and would love to hear from you</p>
+                <p className="mn-para"> Feel free to reach out with any questions, project ideas, or collaboration <br /> opportunities. I'm just a message away and would love to hear from you</p>
                 <p className="mn-line-center"></p>
 
                 <div className="touch-search">

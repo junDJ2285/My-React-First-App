@@ -38,7 +38,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <br />
-                <p className="mn-para">Copyright 2023  Personel Poryofolio</p>
+                <p className="mn-para">Copyright 2025  Personel Poryofolio</p>
 
             </footer>
         </div>

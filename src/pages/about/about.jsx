@@ -160,7 +160,7 @@ const About = () => {
 
             <div className="touch-counter">
                 <h1 className="mn-headings">Stay In Touch</h1>
-                <p className="mn-para">Contact Me: Feel free to reach out with any questions, project ideas, or collaboration <br /> opportunities. I'm just a message away and would love to hear from you.</p>
+                <p className="mn-para">clsFeel free to reach out with any questions, project ideas, or collaboration <br /> opportunities. I'm just a message away and would love to hear from you.</p>
                 <p className="mn-line-center"></p>
                 <div className="touch-search">
                     <Input className="touch-input" placeholder="Enter email address" />
