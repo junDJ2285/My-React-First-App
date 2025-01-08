@@ -1,6 +1,6 @@
 import "./contact.css"
 import { Button, Checkbox, Form, Input } from 'antd';
-import { createFromIconfontCN, PhoneOutlined, LinkedinOutlined, IconFont, TwitterOutlined, GoogleOutlined } from '@ant-design/icons';
+import { createFromIconfontCN, PhoneOutlined, LinkedinOutlined, IconFont, TwitterOutlined, GoogleOutlined, GithubOutlined } from '@ant-design/icons';
 import TextArea from "antd/es/input/TextArea";
 const Contact = () => {
     const onFinish = async (values) => {
@@ -126,11 +126,23 @@ const Contact = () => {
                             <br />
 
                             <div className="">
-                                <div className="about-icons">
-                                    <LinkedinOutlined />
-                                    <IconFont type="icon-facebook" />
-                                    <TwitterOutlined />
-                                    <GoogleOutlined />
+                                <div className="contact-icons">
+                                    <a href="https://www.linkedin.com/in/asif-ali-b7783811b/" target="_blank" rel="noopener noreferrer">
+                                        <LinkedinOutlined />
+                                    </a>
+                                    <a href="https://twitter.com/asif_shammiri" target="_blank" rel="noopener noreferrer">
+                                        <TwitterOutlined />
+                                    </a>
+                                    <a href='https://github.com/Asif-Shammiri' target="_blank">
+                                        <GithubOutlined />
+
+                                    </a>
+                                    <a href='https://stackoverflow.com/users/7603284/touchstardev?tab=profile' target="_blank">
+                                        {/* <GithubOutlined /> */}
+                                        <img className="stack-logo" src={require("../../assets/images/stack.png")} alt="" />
+
+                                    </a>
+
 
                                 </div>
                             </div>

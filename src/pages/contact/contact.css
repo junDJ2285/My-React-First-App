@@ -57,6 +57,22 @@
 
 }
 
+.contact-icons {
+    padding: 20px 0px;
+    color: #f57603 !important;
+    padding: 15px 1px;
+    font-size: 1.4rem;
+    display: flex;
+    /* justify-content: center; */
+    /* color: #f57603 !important; */
+    gap: 20px;
+}
+
+.contact-icons>a {
+    /* padding: 20px 0px; */
+    color: #f57603 !important;
+}
+
 .contact-inputs {
     border-radius: 1px;
     height: 50px;

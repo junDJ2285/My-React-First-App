@@ -22,9 +22,13 @@ const Footer = () => {
                                 <GithubOutlined />
 
                             </a>
+                            <a href='https://stackoverflow.com/users/7603284/touchstardev?tab=profile' target="_blank">
+                                {/* <GithubOutlined /> */}
+                                <img className="stack-logo" src={require("../../assets/images/stack.png")} alt="" />
 
-                            <img className="clints-img" src={require("../../assets/images/stackoverflow.png")} alt="" />
-                            {/* <GoogleOutlined /> */}
+                            </a>
+
+
 
                         </div>
                     </div>

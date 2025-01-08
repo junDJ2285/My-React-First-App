@@ -24,7 +24,7 @@ const Home = () => {
                         <p className="mn-para">I'm Asif - a Pakistan based Software developers,with a passion for all screen Specially for Mobile.</p>
                         <div>
 
-                            <NavLink to={"/Portofolios"}
+                            <NavLink to={"/About"}
                                 className="mn-btn" style={{ margin: "20px 1px" }}>
                                 Learn more
                             </NavLink>
@@ -53,7 +53,7 @@ const Home = () => {
                             <br />
                             <p className="mn-para">I also consult on exisiting projects, particularly on performance analysis and best web practices</p>
 
-                            <NavLink to={"/Portofolio"}
+                            <NavLink to={"/Contact"}
                                 className="mn-btn" style={{ margin: "20px 1px" }}>
                                 Contact Me
                             </NavLink>
@@ -84,16 +84,16 @@ const Home = () => {
                     <div className="work-exp-container">
                         <div className="experience-items">
                             <img id="exp-head-icons" decoding="async" width="70" height="70" src="https://websitedemos.net/personal-portfolio-02/wp-content/uploads/sites/770/2021/02/computer.png" class="attachment-large size-large wp-image-492" alt="" srcset="https://websitedemos.net/personal-portfolio-02/wp-content/uploads/sites/770/2021/02/computer.png 256w, https://websitedemos.net/personal-portfolio-02/wp-content/uploads/sites/770/2021/02/computer-150x150.png 150w" sizes="(max-width: 256px) 100vw, 256px"></img>
-                            <h2>UI/UX Design</h2>
-                            <p className="mn-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias itaque doloremque odit quaerat error Lorem ipsum dolor sit amet.</p>
+                            <h2>Data Scientist</h2>
+                            <p className="mn-para"> They leverage mathematics, statistics, computer science, and domain expertise to analyze and interpret complex datasets, driving decision-making in organizations.</p>
                             <div className="exp-btm-icon">
                                 <RightCircleOutlined />
                             </div>
                         </div>
                         <div className="experience-items ">
                             <img id="exp-head-icons" loading="lazy" decoding="async" width="70" height="70" src="https://websitedemos.net/personal-portfolio-02/wp-content/uploads/sites/770/2021/02/ads-150x150.png" class="attachment-thumbnail size-thumbnail wp-image-519" alt="" srcset="https://websitedemos.net/personal-portfolio-02/wp-content/uploads/sites/770/2021/02/ads-150x150.png 150w, https://websitedemos.net/personal-portfolio-02/wp-content/uploads/sites/770/2021/02/ads.png 256w" sizes="(max-width: 150px) 100vw, 150px"></img>
-                            <h2>Digital Marketting</h2>
-                            <p className="mn-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias itaque doloremque odit quaerat error Lorem ipsum dolor sit amet.</p>
+                            <h2>Software Solutions</h2>
+                            <p className="mn-para">Software solutions are applications or programs designed to solve specific problems, enhance efficiency, or streamline processes for individuals, businesses, or organizations. .</p>
                             <div className="exp-btm-icon">
                                 <RightCircleOutlined />
                             </div>
@@ -101,7 +101,7 @@ const Home = () => {
                         <div className="experience-items ">
                             <img id="exp-head-icons" loading="lazy" decoding="async" width="70" height="70" src="https://websitedemos.net/personal-portfolio-02/wp-content/uploads/sites/770/2021/02/ads-150x150.png" class="attachment-thumbnail size-thumbnail wp-image-519" alt="" srcset="https://websitedemos.net/personal-portfolio-02/wp-content/uploads/sites/770/2021/02/ads-150x150.png 150w, https://websitedemos.net/personal-portfolio-02/wp-content/uploads/sites/770/2021/02/ads.png 256w" sizes="(max-width: 150px) 100vw, 150px"></img>
                             <h2>Web Development</h2>
-                            <p className="mn-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias itaque doloremque odit quaerat error Lorem ipsum dolor sit amet.</p>
+                            <p className="mn-para">Web development is the process of creating and maintaining websites. It involves a range of tasks and technologies to build functional, user-friendly, and visually appealing websites.</p>
                             <div className="exp-btm-icon">
                                 <RightCircleOutlined />
                             </div>
@@ -115,7 +115,8 @@ const Home = () => {
                 <div className="process-container">
                     <div className="process-icon"><PlayCircleOutlined style={{ color: '#ffffff' }} /></div>
                     <h1 className="mn-headings">Working Process</h1>
-                    <p className="mn-para">Lorem ipsum dolor sit amet consectetur adipisicing elit before after. <br />  Accusantium molestias fugit molestiae corporis .</p>
+                    <p className="mn-para">
+                        The working process of a data scientist involves several stages, each focused on transforming raw data into actionable insights.</p>
                 </div>
             </div>
 

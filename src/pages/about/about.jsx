@@ -2,14 +2,38 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "./about.css"
 import { createFromIconfontCN, LinkedinOutlined, GoogleOutlined, TwitterOutlined, RightCircleOutlined, PlayCircleOutlined } from '@ant-design/icons';
-import { Divider, Input } from "antd";
+import { Divider, Flex, Input } from "antd";
 import SessionCards from "./session";
-
+import { Button, Checkbox, Form } from 'antd';
 
 const About = () => {
     const IconFont = createFromIconfontCN({
         scriptUrl: '//at.alicdn.com/t/font_8d5l8fzk5b87iudi.js',
     });
+
+    const onFinish = async (values) => {
+        console.log('Success:', values);
+        try {
+            const response = await fetch('http://localhost:5000/api/contact', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(values),
+            });
+
+            if (response.ok) {
+                alert('Message sent successfully!');
+                // setFormData({ name: '', email: '', message: '' });
+            } else {
+                alert('Failed to send message. Please try again.');
+            }
+        } catch (error) {
+            console.error('Error sending message:', error);
+            alert('An error occurred. Please try again later.');
+        }
+    };
+    const onFinishFailed = (errorInfo) => {
+        console.log('Failed:', errorInfo);
+    };
     return (
         <div>
             <div className="about">
@@ -35,7 +59,7 @@ const About = () => {
                             <br />
                             <p className="mn-para">I also consult on exisiting projects, particularly on performance analysis and best web practices</p>
 
-                            <NavLink to={"/Portofolio"}
+                            <NavLink to={"/Contact"}
                                 className="mn-btn" style={{ margin: "20px 1px" }}>
                                 Contact Me
                             </NavLink>
@@ -160,14 +184,49 @@ const About = () => {
 
             <div className="touch-counter">
                 <h1 className="mn-headings">Stay In Touch</h1>
-                <p className="mn-para">clsFeel free to reach out with any questions, project ideas, or collaboration <br /> opportunities. I'm just a message away and would love to hear from you.</p>
+                <p className="mn-para">Feel free to reach out with any questions, project ideas, or collaboration <br /> opportunities. I'm just a message away and would love to hear from you.</p>
                 <p className="mn-line-center"></p>
                 <div className="touch-search">
-                    <Input className="touch-input" placeholder="Enter email address" />
-                    <NavLink
-                        className="mn-btn" style={{ margin: "20px 1px" }}>
-                        Subscribe
-                    </NavLink>
+                    <Form
+                        //   form={form}
+                        style={{
+                            display: "flex",
+                            gap: " 12px",
+                            alignItems: "center"
+                        }}
+                        initialValues={{
+                            remember: true,
+                        }}
+                        labelCol={{ span: 8 }} // Controls label width
+                        wrapperCol={{ span: 24 }}
+                        onFinish={onFinish}
+                        onFinishFailed={onFinishFailed}
+                        autoComplete="off"
+                        layout="horizontal" // Sets horizontal layout
+                    >
+                        <Form.Item
+
+                            name="email"
+                            rules={[
+                                {
+                                    required: true,
+                                    message: 'Please input your Email',
+                                },
+                            ]}
+                        >
+                            <Input placeholder="Enter Your Email" className="contact-inputs" />
+                        </Form.Item>
+
+
+                        <Form.Item
+
+                        >
+                            <Button htmlType="submit" className="mn-btn">
+                                Subscribe
+                            </Button>
+                        </Form.Item>
+                    </Form>
+
                 </div>
             </div>
 
